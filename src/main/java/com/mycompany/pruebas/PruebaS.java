@@ -17,7 +17,7 @@ public class PruebaS {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jason Perez\\Desktop\\Proyecto selenium\\pruebaS\\src\\main\\resources\\drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.demoblaze.com/");
+        driver.get("https://www.opencart.com/");
         driver.manage().window().maximize();
     }
 }
